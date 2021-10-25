@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="modal">
+    <div class="container">
+      <header class="modal__header">
+        <button class="btn-close" type="button">
+          <svg viewBox="0 0 16 16" width="16" height="16">
+            <path d="M9.427 8l4.279-4.279a1.013 1.013 0 000-1.427 1.012 1.012 0 00-1.426 0L8 6.574l-4.28-4.28a1.013 1.013 0 00-1.427 0 1.015 1.015 0 000 1.427L6.573 8l-4.28 4.279a1.015 1.015 0 000 1.427 1.013 1.013 0 001.427 0L8 9.426l4.28 4.28a1.012 1.012 0 001.426 0 1.013 1.013 0 000-1.427L9.426 8z" fill="#b5babd"></path>
+          </svg>
+        </button>
+        <a class="link-restore" href="#">Restore purchases</a>
+      </header>
+      <div class="modal__subscription subscription">
+        <img class="subscription__img" src="/images/diamond.svg" width="204" height="150" alt="Diamond image">
+        <h1 class="subscription__title">PREMIUM</h1>
+        <ul class="subscription__benefits-list">
+          <li>Get new art every day</li>
+          <li>Remove all ads</li>
+          <li>Get 400+ artworks</li>
+        </ul>
+        <ul class="subscription__offers-list">
+          <li class="subscription__offers-item">
+            <div class="offer">
+              <div class="offer__period">
+                <p class="offer__period-text">
+                  <span>12</span><br>
+                  months
+                </p>
+              </div>
+              <div class="offer__price">
+                <p class="offer__price-text offer__price-text--year">
+                  <span>7 690,00</span>
+                  ₽/year
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="subscription__offers-item subscription__offers-item--current subscription__offers-item--popular">
+            <div class="offer">
+              <div class="offer__period">
+                <p class="offer__period-text offer__period-text--accent">
+                  Free<br>Trial
+                </p>
+              </div>
+              <div class="offer__price">
+                <p class="offer__price-text offer__price-text--week">
+                  3 days free,<br>then
+                  <span>599,00</span>
+                  ₽/week
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="subscription__offers-item">
+            <div class="offer">
+              <div class="offer__period">
+                <p class="offer__period-text">
+                  <span>1</span><br>
+                  month
+                </p>
+              </div>
+              <div class="offer__price">
+                <p class="offer__price-text">
+                  <span>1 550,00</span>
+                  ₽/month
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <a class="subscription__button" href="#">Continue</a>
+      </div>
+      <div class="modal__footer footer">
+        <div class="footer__info">
+          <p class="footer__info-text">These purchases are auto-renewable subscription. Payment
+            will be charged to your Apple ID account at the confirmation of purchase or at the end
+            of the trial period of purchase,<br>if it's offered. The subscription automatically renews<br>
+            unless auto-renew is turned off at least 24 hours before<br>the end of the current period.
+            Your account will be<br>charged for renewal within 24 hours prior to the end<br>of the
+            current period. You can manage and turn off</p>
+        </div>
+        <ul class="footer__links">
+          <li class="footer__link">
+            <a href="#">Privacy Policy</a>
+          </li>
+          <li class="footer__link">
+            <a href="#">Terms of Use</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <script src="/js/script.js"></script>
+
+</body>
+</html>
